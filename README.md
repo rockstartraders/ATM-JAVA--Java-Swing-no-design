@@ -8,8 +8,12 @@ Note :
 
 1. The Database file is included that is the " ATM.sqlite " but for it to work a lower version of Mozilla Firefox is needed which I also include.
 2. Please ensure that the Firefox update is not On.
-3. Please download the sqlite addon here:   https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/   
-4. Just make sure to update the path for the sound files ( for the Menu Form )  and database for it to work. 
+3. Inside Netbeans right click Library and add the Jar file for sqlite (sqlitejdbc-v056.jar)
+4. Please download the sqlite addon here:   https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/   
+5. Just make sure to update the path for the sound files ( for the Menu Form )  and database for it to work. 
+     (just check the comment inside the form)
+
+
      
 
 Thank You. 
