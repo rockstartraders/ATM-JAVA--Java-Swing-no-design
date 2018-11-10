@@ -233,7 +233,7 @@ public class Menu extends javax.swing.JFrame {
             // http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
             InputStream in;
             try{
-            in = new FileInputStream(new File("C:\\Users\\GAMING_RIG\\Documents\\NetBeansProjects\\ATM_project\\Sound Files\\balanceinquiry.wav"));
+            in = new FileInputStream(new File("Insert the .wav path here"));
             AudioStream Bal_Inq = new AudioStream (in);
             AudioPlayer.player.start(Bal_Inq); 
             
@@ -259,7 +259,7 @@ public class Menu extends javax.swing.JFrame {
               // http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
              InputStream in;
              try{
-             in= new FileInputStream(new File("C:\\Users\\GAMING_RIG\\Documents\\NetBeansProjects\\ATM_project\\Sound Files\\changepin.wav"));
+             in= new FileInputStream(new File("Insert the .wav path here"));
              AudioStream Pin_change = new AudioStream (in);
              AudioPlayer.player.start(Pin_change); 
              
@@ -285,7 +285,7 @@ public class Menu extends javax.swing.JFrame {
             // http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
             InputStream in;
             try{
-            in = new FileInputStream(new File("C:\\Users\\GAMING_RIG\\Documents\\NetBeansProjects\\ATM_project\\Sound Files\\Deposit.wav"));
+            in = new FileInputStream(new File("Insert the .wav path here"));
             AudioStream Deposit = new AudioStream (in);
             AudioPlayer.player.start(Deposit); 
             
@@ -317,7 +317,7 @@ public class Menu extends javax.swing.JFrame {
             // http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
             InputStream in;
             try{
-            in = new FileInputStream(new File("C:\\Users\\GAMING_RIG\\Documents\\NetBeansProjects\\ATM_project\\Sound Files\\exit.wav"));
+            in = new FileInputStream(new File("Insert the .wav path here"));
             AudioStream Exit = new AudioStream (in);
             AudioPlayer.player.start(Exit); 
             
@@ -352,7 +352,7 @@ public class Menu extends javax.swing.JFrame {
             // http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
             InputStream in;
             try{
-            in = new FileInputStream(new File("C:\\Users\\GAMING_RIG\\Documents\\NetBeansProjects\\ATM_project\\Sound Files\\Withdraw.wav"));
+            in = new FileInputStream(new File("Insert the .wav path here"));
             AudioStream Widthraw = new AudioStream (in);
             AudioPlayer.player.start(Widthraw); 
             
@@ -381,7 +381,7 @@ public class Menu extends javax.swing.JFrame {
            // http://www.ntu.edu.sg/home/ehchua/programming/java/J8c_PlayingSound.html
            InputStream in;
            try{
-           in = new FileInputStream(new File("C:\\Users\\GAMING_RIG\\Documents\\NetBeansProjects\\ATM_project\\Sound Files\\Loan request.wav"));
+           in = new FileInputStream(new File("Insert the .wav path here"));
            AudioStream Load = new AudioStream (in);
            AudioPlayer.player.start(Load); 
            
